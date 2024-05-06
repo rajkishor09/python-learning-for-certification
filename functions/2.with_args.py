@@ -19,6 +19,9 @@ def calc2(*rest): # like JS rest param which has type tuple
 calc2(1, 2, 3)
 
 print("MIXED ARGS: string, tuple & list")
+"""
+some method
+"""
 def mixed_args(name, *args, **kwargs):
     print(name)
     print(args)
