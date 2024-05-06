@@ -1,5 +1,5 @@
 from sys import path
-path.append('./modules')
+path.append('./modules') # load module from different path
 import reva
 
 print("Module name: ", __name__)
