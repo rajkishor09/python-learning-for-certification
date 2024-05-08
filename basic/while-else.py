@@ -5,5 +5,5 @@ while input("continue? :") == "Y":
         print("invalid quantity")
         break
 else:
-    # executes when while loop executed without break
+    # executes when while loop exits without calling break
     print("thanks")
